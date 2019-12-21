@@ -1,0 +1,7 @@
+<text class="y">一拳一个呼噜怪</text>          <!-- 标题 -->
+<view class="document">文件名<picker  bindchange="change" value="{{index}}" range="{{array}}">{{array[index]}}</picker></view>
+<button class="k" bindtap="find">详情信息</button>
+<button class="s" bindtap="got">波形图</button>
+<button class="h" bindtap="see">声源探测</button>
+
+

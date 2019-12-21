@@ -1,0 +1,6 @@
+<view>
+<image src="{{o}}" mode="aspectFill"></image>
+<image src="{{o1}}"></image>
+<image src="{{o2}}"></image>
+<image src="{{o3}}"></image>
+</view>

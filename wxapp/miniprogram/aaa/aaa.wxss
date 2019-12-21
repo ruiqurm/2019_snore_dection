@@ -1,0 +1,29 @@
+.y
+{
+  font-size: 60rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  font-weight: bolder;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.d
+{
+  font-size: 60rpx;
+  text-align: center;
+  font-weight: bolder;
+  background: linear-gradient(to right, #fa709a, #fee140);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.b
+{
+  border-radius: 98rpx;
+}
+.i
+{
+  width: 100%;
+}

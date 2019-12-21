@@ -1,0 +1,4 @@
+<text class="y">一拳一个呼噜怪</text>
+<image src=""></image>
+<button class="b" bindtap="gonext" ><image  class="i" src="/image/1.png" mode="widthFix"></image></button>
+<text class="d">(点击拳头开始）</text>

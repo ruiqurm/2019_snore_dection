@@ -1,0 +1,10 @@
+<view wx:for="{{list}}" wx:key='list' class="m">
+<view>创建时间：{{item.create_time}}</view>
+<view>使用设备：{{item.device}}</view>
+<view>文件名：{{item.full_name}}</view>
+<view>用户上传时使用名：{{item.name}}</view>
+<view>测试组数：{{item.order}}</view>
+<view>文件大小（MB）：{{item.size}}</view>
+</view>
+<button class="download" bindtap="download">下载文件</button>
+

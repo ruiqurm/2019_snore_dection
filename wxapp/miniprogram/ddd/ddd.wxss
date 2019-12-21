@@ -1,0 +1,19 @@
+.m
+{
+  font-size: 50rpx;
+  font-weight: bolder;
+  margin-top:100rpx; 
+  background: linear-gradient(to right, #EA4492, #041B2D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.download
+{
+  font-size: 50rpx;
+  font-weight: bolder;
+  margin-top: 100rpx;
+  color: brown;
+  border: 1px solid black;
+  background: salmon
+}

@@ -1,0 +1,49 @@
+.y
+{
+  font-size: 60rpx;
+  font-weight: bolder;
+  text-align: center;
+  background: linear-gradient(to right, #E65758, #771d32);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.k
+{
+    font-size: 40rpx;
+    font-weight: bolder;
+    margin-top: 320rpx;
+    color: coral;
+    border: 1px solid black;
+    background: powderblue;
+}
+.s
+{
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-top: 50rpx;
+  color: palevioletred;
+  border: 1px solid black;
+  background: thistle;
+  color: #008000
+}
+.h
+{
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-top: 50rpx;
+  border: 1px solid black;
+  color: saddlebrown;
+  background: mistyrose
+}
+.document
+{
+  text-align: center;
+  margin-top: 200rpx;
+  font-size: 60rpx;
+  font-weight: bolder;
+  background: linear-gradient(to left, #b51f1a, #f98ef6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
