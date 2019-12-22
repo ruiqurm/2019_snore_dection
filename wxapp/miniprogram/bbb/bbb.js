@@ -9,12 +9,13 @@ data:
 },
   onLoad:function(options)
   {
+    console.log(options.id)
     var o,o1,o2,o3;
     var that = this;
-    var p = JSON.parse(decodeURIComponent(options.id));
-    var p1 = JSON.parse(decodeURIComponent(options.id1));
-    var p2 = JSON.parse(decodeURIComponent(options.id2));
-    var p3 = JSON.parse(decodeURIComponent(options.id3));
+    var p = options.id;
+    var p1 = options.id1;
+    var p2 = options.id2;
+    var p3 = options.id3;
     console.log(p)
     that.setData
     ({
@@ -34,5 +35,6 @@ data:
       o2:o2,
       o3:o3
     })
+    console.log(that.data.o)
   }
 })

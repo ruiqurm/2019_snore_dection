@@ -39,13 +39,13 @@
  got:function()
  {
    var that = this;
-   console.log(that.data.id);
-   var pd = JSON.stringify(that.data.id);
-   var pd1 = JSON.stringify(that.data.id1);
-   var pd2 = JSON.stringify(that.data.id2)
-   var pd3 = JSON.stringify(that.data.id3)
+   var pd = that.data.id;
+   var pd1 = that.data.id1;
+   var pd2 = that.data.id2;
+   var pd3 = that.data.id3;
+   console.log(pd)
    wx.navigateTo({
-     url: '../bbb/bbb?id=' + encodeURIComponent(pd) + '&id1=' + encodeURIComponent(pd1) + '&id2=' + encodeURIComponent(pd2) + '&id3=' + encodeURIComponent(pd3)
+     url: '../bbb/bbb?id=' + pd + '&id1=' + pd1 + '&id2=' + pd2 + '&id3=' + pd3
    })
    
  },
